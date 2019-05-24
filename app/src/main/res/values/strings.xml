@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MB_Locations</string>
+    <string name="action_settings">Settings</string>
+
 </resources>
