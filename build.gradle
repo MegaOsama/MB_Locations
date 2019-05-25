@@ -17,13 +17,16 @@ buildscript {
 
 allprojects {
     repositories {
-        google()
-        jcenter()
         maven {
             url 'https://maven.google.com/'
             name 'Google'
         }
+        google()
+        jcenter()
         maven { url 'https://jitpack.io' }
+        maven {
+            url 'https://mvnrepository.com/artifact/com.android.tools.lint/lint-gradle-api'
+        }
         mavenCentral()
         maven { url 'https://mapbox.bintray.com/mapbox' }
     }

@@ -17,9 +17,9 @@ import com.apps.sam.mblocations.R;
 
 import timber.log.Timber;
 
-public class MainActivity extends AppCompatActivity {
+public class ActivitySectors extends AppCompatActivity {
 
-    String tag = MainActivity.class.getName();
+    String tag = ActivitySectors.class.getName();
     ProgressDialog progressDoalog;
     RecyclerView rvSectors;
     AdapterRvSectors adapterRvSectors;
@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        progressDoalog = new ProgressDialog(MainActivity.this);
+        progressDoalog = new ProgressDialog(ActivitySectors.this);
         rvSectors = (RecyclerView) findViewById(R.id.rvSectors);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
                     sectors(2);
 
                 } catch (Exception ex) {
-                    Toast.makeText(MainActivity.this, "something gone ", Toast.LENGTH_LONG).show();
+                    Toast.makeText(ActivitySectors.this, "something gone ", Toast.LENGTH_LONG).show();
                     Timber.d(tag, ex.getMessage());
                     ex.printStackTrace();
                 }
