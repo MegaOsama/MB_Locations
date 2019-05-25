@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">MBLocations</string>
     <string name="title_activity_offices">Offices</string>
+    <string name="title_activity_sectors">Sectors</string>
     <string name="title_activity_map">ActivityMap</string>
 
     <string name="access_token">pk.eyJ1IjoibWVnYW9zYW1hIiwiYSI6ImNqazNzaWlodzBjaXUza214cmhzODYwN3MifQ.eunaP_INL8yQVJDygZDpbg</string>

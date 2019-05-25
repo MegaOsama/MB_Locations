@@ -1,4 +1,4 @@
-package com.apps.sam.Irshad;
+package com.apps.sam.Irshad.Activities;
 
 import android.app.ProgressDialog;
 import android.os.Bundle;
@@ -8,11 +8,9 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.Toast;
 
 import com.apps.sam.Irshad.services.SectorsServiceImpl;
-import com.apps.sam.Irshad.tools.AdapterRvSectors;
 import com.apps.sam.mblocations.R;
 
 import timber.log.Timber;
@@ -22,33 +20,27 @@ public class ActivitySectors extends AppCompatActivity {
     String tag = ActivitySectors.class.getName();
     ProgressDialog progressDoalog;
     RecyclerView rvSectors;
-    AdapterRvSectors adapterRvSectors;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setContentView(R.layout.activity_sectors);
+        Toolbar toolbar =  findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         progressDoalog = new ProgressDialog(ActivitySectors.this);
         rvSectors = (RecyclerView) findViewById(R.id.rvSectors);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                try {
+        FloatingActionButton fab =  findViewById(R.id.fab);
+        fab.setOnClickListener(view -> {
+            try {
 
-                    sectors(2);
+                sectors(2);
 
-                } catch (Exception ex) {
-                    Toast.makeText(ActivitySectors.this, "something gone ", Toast.LENGTH_LONG).show();
-                    Timber.d(tag, ex.getMessage());
-                    ex.printStackTrace();
-                }
+            } catch (Exception ex) {
+                Toast.makeText(ActivitySectors.this, "something gone ", Toast.LENGTH_LONG).show();
+                Timber.d(tag, ex.getMessage());
+                ex.printStackTrace();
             }
-
-
         });
     }
 

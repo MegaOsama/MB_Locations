@@ -1,5 +1,4 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     package="com.apps.sam.mblocations">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -17,22 +16,28 @@
 
     <application>
 
-    <!--android:allowBackup="true"-->
+        <!--android:allowBackup="true"-->
         <!--android:icon="@mipmap/ic_launcher"-->
         <!--android:label="@string/app_name"-->
         <!--android:roundIcon="@mipmap/ic_launcher_round"-->
         <!--android:supportsRtl="true"-->
         <!--android:theme="@style/AppTheme">-->
 
-    <activity
-        android:name="com.apps.sam.Irshad.Activities.ActivityOffices"
-        android:label="@string/title_activity_offices"
-        android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name="com.apps.sam.Irshad.Activities.ActivityOffices"
+            android:label="@string/title_activity_offices"
+            android:theme="@style/MyMaterialTheme" />
 
-    <activity
-        android:name="com.apps.sam.Irshad.Activities.NavigationMapRouteActivity"
-        android:label="@string/title_activity_map"
-        android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name="com.apps.sam.Irshad.Activities.ActivitySectors"
+            android:label="@string/title_activity_sectors"
+            android:theme="@style/MyMaterialTheme" />
+
+        <activity
+            android:name="com.apps.sam.Irshad.Activities.NavigationMapRouteActivity"
+            android:label="@string/title_activity_map"
+            android:theme="@style/MyMaterialTheme" />
 
 
-</application></manifest>
+    </application>
+</manifest>
