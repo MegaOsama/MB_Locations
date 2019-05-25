@@ -6,7 +6,8 @@ import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.apps.sam.mblocations.tools.Irshad;
+import com.apps.sam.Irshad.tools.Irshad;
+
 
 public class MainActivity extends AppCompatActivity {
 

@@ -13,6 +13,7 @@ import android.widget.Toast;
 
 import com.apps.sam.Irshad.services.SectorsServiceImpl;
 import com.apps.sam.Irshad.tools.AdapterRvSectors;
+import com.apps.sam.mblocations.R;
 
 import timber.log.Timber;
 

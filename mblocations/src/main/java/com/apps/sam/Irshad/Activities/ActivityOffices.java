@@ -6,8 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 
-import com.apps.sam.Irshad.R;
 import com.apps.sam.Irshad.services.OfficesServiceImpl;
+import com.apps.sam.mblocations.R;
 
 import java.util.Objects;
 

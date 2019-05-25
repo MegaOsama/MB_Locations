@@ -12,7 +12,7 @@ import android.widget.Toast;
 
 import com.apps.sam.Irshad.Activities.NavigationMapRouteActivity;
 import com.apps.sam.Irshad.Models.Office;
-import com.apps.sam.Irshad.R;
+import com.apps.sam.mblocations.R;
 
 import java.util.List;
 
