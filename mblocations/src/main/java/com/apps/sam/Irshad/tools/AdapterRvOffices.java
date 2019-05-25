@@ -1,4 +1,4 @@
-package com.apps.sam.mblocations.tools;
+package com.apps.sam.Irshad.tools;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -10,9 +10,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.apps.sam.mblocations.Activities.NavigationMapRouteActivity;
-import com.apps.sam.mblocations.Models.Office;
-import com.apps.sam.mblocations.R;
+import com.apps.sam.Irshad.Activities.NavigationMapRouteActivity;
+import com.apps.sam.Irshad.Models.Office;
+import com.apps.sam.Irshad.R;
 
 import java.util.List;
 

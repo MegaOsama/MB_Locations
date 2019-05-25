@@ -1,4 +1,4 @@
-package com.apps.sam.mblocations;
+package com.apps.sam.Irshad;
 
 import android.app.ProgressDialog;
 import android.os.Bundle;
@@ -11,8 +11,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
-import com.apps.sam.mblocations.services.SectorsServiceImpl;
-import com.apps.sam.mblocations.tools.AdapterRvSectors;
+import com.apps.sam.Irshad.services.SectorsServiceImpl;
+import com.apps.sam.Irshad.tools.AdapterRvSectors;
 
 import timber.log.Timber;
 

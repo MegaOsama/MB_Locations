@@ -1,4 +1,4 @@
-package com.apps.sam.mblocations;
+package com.apps.sam.Irshad;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

@@ -1,6 +1,6 @@
-package com.apps.sam.mblocations.services;
+package com.apps.sam.Irshad.services;
 
-import com.apps.sam.mblocations.Models.SectorList;
+import com.apps.sam.Irshad.Models.SectorList;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

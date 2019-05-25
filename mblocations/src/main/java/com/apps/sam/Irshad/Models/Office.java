@@ -1,4 +1,4 @@
-package com.apps.sam.mblocations.Models;
+package com.apps.sam.Irshad.Models;
 
 import com.google.gson.annotations.SerializedName;
 

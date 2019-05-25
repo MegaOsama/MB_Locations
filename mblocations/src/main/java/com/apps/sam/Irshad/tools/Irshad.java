@@ -1,12 +1,11 @@
-package com.apps.sam.mblocations.tools;
+package com.apps.sam.Irshad.tools;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.support.v7.widget.RecyclerView;
 
-import com.apps.sam.mblocations.R;
-import com.apps.sam.mblocations.services.OfficesServiceImpl;
-import com.apps.sam.mblocations.services.SectorsServiceImpl;
+import com.apps.sam.Irshad.services.OfficesServiceImpl;
+import com.apps.sam.Irshad.services.SectorsServiceImpl;
 
 public class Irshad {
     private String tag = Irshad.class.getName();
@@ -18,8 +17,8 @@ public class Irshad {
     public Irshad(Activity activity) {
         this.context = activity;
         progressDialog = new ProgressDialog(activity);
-        rvOffices = activity.findViewById(R.id.rvOffices);
-        rvSectors = activity.findViewById(R.id.rvSectors);
+        rvOffices = activity.findViewById(com.apps.sam.Irshad.R.id.rvOffices);
+        rvSectors = activity.findViewById(com.apps.sam.Irshad.R.id.rvSectors);
     }
 
     public void offices(int depart) {

@@ -1,4 +1,4 @@
-package com.apps.sam.mblocations;
+package com.apps.sam.Irshad;
 
 import org.junit.Test;
 

@@ -23,12 +23,12 @@
         android:theme="@style/AppTheme">
 
     <activity
-        android:name=".Activities.ActivityOffices"
+        android:name="com.apps.sam.Irshad.Activities.ActivityOffices"
         android:label="@string/title_activity_offices"
         android:theme="@style/MyMaterialTheme" />
 
     <activity
-        android:name=".Activities.NavigationMapRouteActivity"
+        android:name="com.apps.sam.Irshad.Activities.NavigationMapRouteActivity"
         android:label="@string/title_activity_map"
         android:theme="@style/MyMaterialTheme" />
 

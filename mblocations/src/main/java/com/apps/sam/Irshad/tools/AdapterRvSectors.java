@@ -1,4 +1,4 @@
-package com.apps.sam.mblocations.tools;
+package com.apps.sam.Irshad.tools;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -10,9 +10,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.apps.sam.mblocations.Activities.ActivityOffices;
-import com.apps.sam.mblocations.Models.Sector;
-import com.apps.sam.mblocations.R;
+import com.apps.sam.Irshad.Activities.ActivityOffices;
+import com.apps.sam.Irshad.Models.Sector;
 
 import java.util.List;
 
@@ -31,7 +30,7 @@ public class AdapterRvSectors extends RecyclerView.Adapter<AdapterRvSectors.RvSe
 
     @Override
     public AdapterRvSectors.RvSectorHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View view_as_row = LayoutInflater.from(parent.getContext()).inflate(R.layout.single_row, parent, false);
+        View view_as_row = LayoutInflater.from(parent.getContext()).inflate(com.apps.sam.Irshad.R.layout.single_row, parent, false);
         return new AdapterRvSectors.RvSectorHolder(view_as_row);
     }
 
@@ -65,9 +64,9 @@ public class AdapterRvSectors extends RecyclerView.Adapter<AdapterRvSectors.RvSe
 
         private RvSectorHolder(View itemView) {
             super(itemView);
-            userimg = itemView.findViewById(R.id.userimg);
-            leftarrow = itemView.findViewById(R.id.leftarrow);
-            name = itemView.findViewById(R.id.usertxt);
+            userimg = itemView.findViewById(com.apps.sam.Irshad.R.id.userimg);
+            leftarrow = itemView.findViewById(com.apps.sam.Irshad.R.id.leftarrow);
+            name = itemView.findViewById(com.apps.sam.Irshad.R.id.usertxt);
         }
     }
 

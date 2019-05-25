@@ -1,6 +1,6 @@
-package com.apps.sam.mblocations.api.RetrofitClientInstance;
+package com.apps.sam.Irshad.api.RetrofitClientInstance;
 
-import com.apps.sam.mblocations.api.API;
+import com.apps.sam.Irshad.api.API;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;

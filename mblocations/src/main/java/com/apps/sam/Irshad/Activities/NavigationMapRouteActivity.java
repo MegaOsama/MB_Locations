@@ -1,4 +1,4 @@
-package com.apps.sam.mblocations.Activities;
+package com.apps.sam.Irshad.Activities;
 
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
@@ -7,8 +7,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.apps.sam.mblocations.Models.Office;
-import com.apps.sam.mblocations.R;
+import com.apps.sam.Irshad.Models.Office;
+import com.apps.sam.Irshad.R;
 import com.mapbox.android.core.permissions.PermissionsListener;
 import com.mapbox.android.core.permissions.PermissionsManager;
 import com.mapbox.api.directions.v5.models.DirectionsResponse;

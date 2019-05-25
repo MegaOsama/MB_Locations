@@ -1,4 +1,4 @@
-package com.apps.sam.mblocations.services;
+package com.apps.sam.Irshad.services;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
@@ -8,10 +8,10 @@ import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.apps.sam.mblocations.Models.Office;
-import com.apps.sam.mblocations.Models.Offices;
-import com.apps.sam.mblocations.api.RetrofitClientInstance.RetrofitClientInstance;
-import com.apps.sam.mblocations.tools.AdapterRvOffices;
+import com.apps.sam.Irshad.Models.Office;
+import com.apps.sam.Irshad.Models.Offices;
+import com.apps.sam.Irshad.api.RetrofitClientInstance.RetrofitClientInstance;
+import com.apps.sam.Irshad.tools.AdapterRvOffices;
 
 import java.util.ArrayList;
 import java.util.List;

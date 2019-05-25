@@ -1,4 +1,4 @@
-package com.apps.sam.mblocations.api;
+package com.apps.sam.Irshad.api;
 
 public class API {
     //    public static String home = "http://10.0.2.2:8000";

@@ -1,4 +1,4 @@
-package com.apps.sam.mblocations.Activities;
+package com.apps.sam.Irshad.Activities;
 
 import android.app.ProgressDialog;
 import android.os.Bundle;
@@ -6,8 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 
-import com.apps.sam.mblocations.R;
-import com.apps.sam.mblocations.services.OfficesServiceImpl;
+import com.apps.sam.Irshad.R;
+import com.apps.sam.Irshad.services.OfficesServiceImpl;
 
 import java.util.Objects;
 
